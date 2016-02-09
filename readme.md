@@ -1,4 +1,4 @@
-# Zaawansowany HTML i CSS - egzamin
+# JavaScript - egzamin
 
 Zadanie 1-2 rozwiąż w pliku odpowiedzi.txt
 
