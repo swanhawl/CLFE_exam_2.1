@@ -10,11 +10,11 @@ Nie zmieniaj nic w plikach HTML.
 1. Co to propagacja eventów? Jakie znasz typy propagacji? Czym się od siebie różnią?
 
 2. Wytłumacz dlaczego ważne jest żeby cały kod javaScript operujący na naszej stronie powinniśmy używać w następującym bloku kodu:
-```
-document.addEventListener('DOMContentLoaded', function () {
-  ... js code goes here...
-}
-```
+  ```
+  document.addEventListener('DOMContentLoaded', function () {
+    ... js code goes here...
+  }
+  ``` 
 Do czego może prowadzić sytuacja w której tego nie zrobimy?
 
 3. Napisz funkcje ```bigestSumOfTwoElements(array)``` która przyjmuje tablicę z liczbami i zwraca sumę dwóch największych elementów z tej tablicy.
@@ -22,18 +22,18 @@ Dla uproszczenia możemy założyć że przekazana tablica zawiera wyłącznie l
 Jeżeli tablica zawiera tylko jeden element funkcja powinna zwrócić wartość tego elementu.
 Jeżeli tablica zawiera zero elementów powinna zwracać ```NaN```
 Np:
-```
-bigestSumOfTwoElements([1,2,3,4]) // => 7
-bigestSumOfTwoElements([]) // => NaN
-bigestSumOfTwoElements([23,45,17,12]) // => 68
-```
+  ```
+  bigestSumOfTwoElements([1,2,3,4]) // => 7
+  bigestSumOfTwoElements([]) // => NaN
+  bigestSumOfTwoElements([23,45,17,12]) // => 68
+  ```
 
 4. Używając JavaScript:
-  * Znajdź wszystkie elementy o klasie ```sample_class``` i wypisz w konsoli ich tagi,
-  * Znajdź element o id ```sample_id``` i wypisz w konsoli jego wszystkie klasy,
-  * Znajdź wszystkie elementy listy znajdujące się w divie o klasie ```sample_class_2``` i wypisz znajdujący się w nich tekst,
-  * Znajdź wszystkie linki i wypisz adresy na które wskazują,
-  * Znajdź element o klasie ```sample_class_3``` i wypisz w konsoli tagi wszystkich jego dzieci.
+  1. Znajdź wszystkie elementy o klasie ```sample_class``` i wypisz w konsoli ich tagi,
+  2. Znajdź element o id ```sample_id``` i wypisz w konsoli jego wszystkie klasy,
+  3. Znajdź wszystkie elementy listy znajdujące się w divie o klasie ```sample_class_2``` i wypisz znajdujący się w nich tekst,
+  4. Znajdź wszystkie linki i wypisz adresy na które wskazują,
+  5. Znajdź element o klasie ```sample_class_3``` i wypisz w konsoli tagi wszystkich jego dzieci.
 
 5. Używając JavaScript dopisz do wszystkich guzików znajdujących się na stronie event który po naciśnięciu spowoduje że divie pokaże się tekst trzymany w ```data-text```.
 
