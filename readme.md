@@ -7,9 +7,9 @@ Resztę zadań rozwiąż w odpowiednich plikach js.
 Nie zmieniaj nic w plikach HTML.
 
 ## Zadania:
-1. Co to propagacja eventów? Jakie znasz typy propagacji? Czym się od siebie różnią?
+1. (2ptk) Co to propagacja eventów? Jakie znasz typy propagacji? Czym się od siebie różnią?
 
-2. Wytłumacz dlaczego ważne jest żeby cały kod javaScript operujący na naszej stronie powinniśmy używać w następującym bloku kodu:
+2. (1ptk) Wytłumacz dlaczego ważne jest żeby cały kod javaScript operujący na naszej stronie powinniśmy używać w następującym bloku kodu:
   ```
   document.addEventListener('DOMContentLoaded', function () {
     ... js code goes here...
@@ -17,7 +17,7 @@ Nie zmieniaj nic w plikach HTML.
   ``` 
 Do czego może prowadzić sytuacja w której tego nie zrobimy?
 
-3. Napisz funkcje ```bigestSumOfTwoElements(array)``` która przyjmuje tablicę z liczbami i zwraca sumę dwóch największych elementów z tej tablicy.
+3. (3ptk) Napisz funkcje ```bigestSumOfTwoElements(array)``` która przyjmuje tablicę z liczbami i zwraca sumę dwóch największych elementów z tej tablicy.
 Dla uproszczenia możemy założyć że przekazana tablica zawiera wyłącznie liczby.
 Jeżeli tablica zawiera tylko jeden element funkcja powinna zwrócić wartość tego elementu.
 Jeżeli tablica zawiera zero elementów powinna zwracać ```NaN```
@@ -28,16 +28,16 @@ Np:
   bigestSumOfTwoElements([23,45,17,12]) // => 68
   ```
 
-4. Używając JavaScript:
+4. (5ptk) Używając JavaScript:
   1. Znajdź wszystkie elementy o klasie ```sample_class``` i wypisz w konsoli ich tagi,
   2. Znajdź element o id ```sample_id``` i wypisz w konsoli jego wszystkie klasy,
   3. Znajdź wszystkie elementy listy znajdujące się w divie o klasie ```sample_class_2``` i wypisz znajdujący się w nich tekst,
   4. Znajdź wszystkie linki i wypisz adresy na które wskazują,
   5. Znajdź element o klasie ```sample_class_3``` i wypisz w konsoli tagi wszystkich jego dzieci.
 
-5. Używając JavaScript dopisz do wszystkich guzików znajdujących się na stronie event który po naciśnięciu spowoduje że divie pokaże się tekst trzymany w ```data-text```.
+5. (3ptk) Używając JavaScript dopisz do wszystkich guzików znajdujących się na stronie event który po naciśnięciu spowoduje że divie pokaże się tekst trzymany w ```data-text```.
 
-6. Używając JavaScript dopisz event do formularza. Event ma reagować na wysłanie formularza. Event ma:
+6. (6ptk) Używając JavaScript dopisz event do formularza. Event ma reagować na wysłanie formularza. Event ma:
   1. Zapobiegać przeładowaniu strony,
   2. Sprawdzić czy długość danych w polu Imię jest dłuższa niż 5 zniaków. Jeżeli warunek nie jest spełniony odpowiednia wiadomość powinna być pokazana w divie o klasie ```error_message```.
   3. Sprawdzić czy wartości pól Hasło i Hasło2 są identyczne. Jeżeli warunek nie jest spełniony odpowiednia wiadomość powinna być pokazana w divie o klasie ```error_message```.
